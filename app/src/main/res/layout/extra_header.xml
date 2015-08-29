@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/darkerBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/drawer_shadow" android:scaleType="fitXY" />
+    <View android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="night_sendbar">@color/night_sendbarBackground</item>
+    <item type="drawable" name="sendbar">@android:color/white</item>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kickoff.android.evolve_sms.lgux4" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.klinker.android.evolve_sms.material.MainApplication" android:theme="@style/AppThemeLight">
+        <meta-data android:name="evolve_theme" android:value="first-party"/>
+        <meta-data android:name="evolve_theme_headers" android:value="false"/>
+        <meta-data android:name="evolve_theme_contact_pictures" android:value="true"/>
+        <meta-data android:name="evolve_theme_round_contact_pictures" android:value="true"/>
+        <meta-data android:name="evolve_theme_show_duplicate_contact_pictures" android:value="true"/>
+        <meta-data android:name="evolve_theme_always_show_date" android:value="true"/>
+        <meta-data android:name="evolve_theme_message_fill_width" android:value="false"/>
+        <meta-data android:name="evolve_theme_base" android:value="light"/>
+        <meta-data android:name="evolve_actionbar_icon" android:value="light"/>
+        <meta-data android:name="evolve_has_night_mode" android:value="true"/>
+        <!-- Can be light, dark, or black, which defines the base night theme you are building off of -->
+        <meta-data android:name="night_evolve_theme_base" android:value="dark" />
+        <activity android:label="@string/app_name" android:name="com.klinker.android.evolve_sms.material.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="RecyclerViewTestActivity" android:name="android.support.v7.widget.TestActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/darkerBackground" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <com.klinker.android.evolve_sms.material.view.CircularButton android:id="@id/apply" android:layout_width="150.0dip" android:layout_height="150.0dip" android:text="@string/apply" android:layout_centerInParent="true" />
+        <TextSwitcher android:id="@id/apply_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/check_box_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/show_in_app_drawer" />
+            <com.klinker.android.evolve_sms.material.view.CircularCheckBox android:id="@id/check_box" android:layout_width="42.0dip" android:layout_height="42.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

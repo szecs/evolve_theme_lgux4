@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="apply">false</item>
+    <item type="id" name="apply_text">false</item>
+    <item type="id" name="check_box_text">false</item>
+    <item type="id" name="check_box">false</item>
+    <item type="id" name="myPicture">false</item>
+    <item type="id" name="holder">false</item>
+    <item type="id" name="contactPicture">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="media">false</item>
+    <item type="id" name="gifView">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="date">false</item>
+</resources>

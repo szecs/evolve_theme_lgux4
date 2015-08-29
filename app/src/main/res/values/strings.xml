@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alignment_received_date">left</string>
+    <string name="alignment_received_text">left</string>
+    <string name="alignment_sent_date">left</string>
+    <string name="alignment_sent_text">left</string>
+    <string name="app_name">LG UX4 Theme</string>
+    <string name="app_package">com.kickoff.android.evolve_sms.lgux4</string>
+    <string name="applied">Applied!</string>
+    <string name="apply">Apply Theme?</string>
+    <string name="show_in_app_drawer">Hide from app drawer?</string>
+</resources>
